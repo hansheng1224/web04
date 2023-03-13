@@ -47,7 +47,7 @@ include "./api/base.php";
 						<div class="mainmu">
 							校園映象資料管理 </div>
 					</a>
-					<a style="color:#000; font-size:13px; text-decoration:none;" href="?do==total">
+					<a style="color:#000; font-size:13px; text-decoration:none;" href="?do=total">
 						<div class="mainmu">
 							進站總人數管理 </div>
 					</a>
@@ -115,7 +115,7 @@ include "./api/base.php";
 		</div>
 		<div style="clear:both;"></div>
 		<div style="width:1024px; left:0px; position:relative; background:#FC3; margin-top:4px; height:123px; display:block;">
-			<span class="t" style="line-height:123px;"><?=$Botom->find(1)['bottom'];?></span>
+			<span class="t" style="line-height:123px;"><?=$Bottom->find(1)['bottom'];?></span>
 		</div>
 	</div>
 

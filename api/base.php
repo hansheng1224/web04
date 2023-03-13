@@ -135,5 +135,11 @@ function to($url){
 $Title=new DB('title');
 $Total=new DB('total');
 $Bottom=new DB('bottom');
-
+$Ad=new DB('ad');
+$Mvim=new DB('mvim');
+$Image=new DB('image');
+$Bottom=new DB('bottom');
+$News=new DB('news');
+$Admin=new DB("admin");
+$Menu=new DB('menu');
 ?>
